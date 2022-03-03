@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: black;    
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+    gap: 10px;
+}
+
+img{
+    display: block;
+    box-shadow: 3px 2px 2px whitesmoke;
+    /* box-shadow: -1px 0px 0px rgba(0, 0, 0, 0.06); */
+    width: 100%;
+}
